@@ -1,0 +1,10 @@
+Device,SSH,TELNET,Reason,AI Analysis,Risk Level,Final Status
+192.168.1.1,PASS,FAIL,telnet failed,Here is the analysis in one line:  Issues: No issues identified - configuration looks secure and compliant with best practices; Risk Level: N/A; Fix: None required.,Low,FAIL
+192.168.1.2,PASS,FAIL,telnet failed,Here's the analysis:  Issues: Telnet access disabled - SSH enabled - password encryption enabled. | Risk Level: Low-Moderate. | Fix: None required - configuration looks good.,Low,FAIL
+192.168.1.3,PASS,FAIL,telnet failed,Here is the analysis in one line:  Issues: No issues mentioned - but potential risks include unencrypted passwords and lack of TCP-based remote management (telnet) - Risk Level: Low-Moderate - Fix: Enable SSH-only connections or configure secure password storage.,Low,FAIL
+192.168.1.4,PASS,FAIL,telnet failed,No issues detected - low risk.,Low,FAIL
+192.168.1.5,PASS,FAIL,telnet failed,Here's the analysis:  * Issues: Insecure VTY lines - Telnet not supported anymore - and weak password encryption. * Risk Level: Medium. * Fix: Change VTY lines to use SSH only (line vty 0 4 transport input ssh) - disable Telnet entirely (no transport input telnet) - and upgrade to strong password encryption.,Medium,FAIL
+192.168.1.6,PASS,FAIL,telnet failed,No issues detected; secure remote access via SSH - disabled insecure Telnet.,Low,FAIL
+192.168.1.7,PASS,FAIL,telnet failed,No issues found - low risk. Fix: None needed.,Low,FAIL
+192.168.1.8,PASS,FAIL,telnet failed,Here is the analysis:  Issues: No security risks identified. | Risk Level: Low. | Fix: None required - configuration looks secure.,Low,FAIL
+192.168.1.9,PASS,FAIL,telnet failed,None - Low - Implemented (no issues found),Low,FAIL

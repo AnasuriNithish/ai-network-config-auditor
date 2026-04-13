@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "ssh": {
+      "required": true,
+      "command": "transport input ssh"
+    },
+    "telnet": {
+      "allowed": false,
+      "command": "transport input telnet"
+    }
+  }
+}
